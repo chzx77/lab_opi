@@ -26,10 +26,14 @@ int main()
     cout << "Enter a positive integer: ";
     cin >> n;
 
-    (n >= 10 && n <= 99 && n % 2 == 0)
-        ? cout << "True" << endl
-        : cout << "False" << endl;
-
+   if (n >= 10 && n <= 99 && n % 2 == 0)
+{
+    cout << "True" << endl;
+}
+else
+{
+    cout << "False" << endl;
+}
     return 0;
 }
 // з тернарним оператором
